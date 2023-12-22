@@ -58,13 +58,6 @@ def get_response_from_query(db, query, k=4):
 
 
 
-    # The code `chain = LLMChain(llm=llm, prompt=prompt)` creates an instance of the `LLMChain` class.
-    # This chain is responsible for generating a response to a given query based on the top documents
-    # retrieved from the database.
-
-
-
-
 
 
 

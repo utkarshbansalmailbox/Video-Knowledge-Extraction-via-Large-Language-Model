@@ -28,12 +28,6 @@ with tab1:
                 with st.spinner("Processing"):
                     time.sleep(90)
                     st.success("DONE")
-
-
-            # name = st.sidebar.text_area(
-            #      label="Username",
-            #      max_chars=10,
-            # )
             
             youtube_url = st.sidebar.text_area(
                 label="Video URL",
@@ -65,32 +59,12 @@ with tab2:
     st.write("To access app follow the steps below: \n1. Load Project in Editor. \n 02. Under '.env' file enter your OpenAI API key")
     code = ''' OPENAI_API_KEY = 'ENTER YOUR OPENAI API KEY' '''
     st.code(code, language="markdown")
-    st.write("3. Compile files \n > LangchainModel.py  \n > main.py \n 4. In Terminal type:")
-    code2 = ''' streamlit run main.py '''
+    st.write("3. Install all the required files by typing the command in Terminal mentioned below:")
+    code2 = ''' pip install -r requirements.txt '''
     st.code(code2, language="python")
+    st.write("4. Compile files \n > LangchainModel.py  \n > main.py \n 5. In Terminal type:")
+    code3 = ''' streamlit run main.py '''
+    st.code(code3, language="python")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# The code you provided is a Python script that creates a Streamlit application.
-# This application allows users to engage with YouTube videos by asking questions and receiving
-# answers powered by a Language Model (LLM).
