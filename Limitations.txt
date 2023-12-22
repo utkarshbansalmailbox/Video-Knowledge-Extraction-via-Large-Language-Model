@@ -1,0 +1,3 @@
+1. text-davinci-003 max token size = 4097 tokens. 
+2. Set the chunksize = 1000 and k = 4 maximizes (to number of tokens to analyze)
+ 
