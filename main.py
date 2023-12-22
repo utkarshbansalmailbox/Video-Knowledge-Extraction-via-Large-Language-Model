@@ -55,7 +55,7 @@ with tab1:
 with tab2:
     st.write("\n")
     container = st.container()
-    Git = "GitHub: https://github.com/utkarshbansalmailbox?tab=repositories"
+    Git = "GitHub: https://github.com/utkarshbansalmailbox/Video-Knowledge-Extraction-via-Large-Language-Model"
     container.write("Made with :blue_heart: & :sweat_drops:  \n Utkarsh Bansal")
     st.divider()
     container.write(Git)
